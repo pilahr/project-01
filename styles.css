@@ -21,3 +21,15 @@ nav {
   font-size: 100px;
   color: #34495E;
 }
+
+.login-button {
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: #34495E solid 2px;
+  color: #34495E;
+  font-family: "Tilt Wrap", san-serif;
+  font: 30px bold;
+}
