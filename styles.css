@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Tilt+Warp&display=swap");
+* {
+  background-color: #FFFDE7;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+nav {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
