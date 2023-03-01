@@ -25,3 +25,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    font-family: $font-logo;
+    font-size: 100px;
+    color: $color-primary;
+}
