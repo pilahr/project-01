@@ -94,3 +94,19 @@ div {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.bottom {
+    display: flex;
+    background-color: $color-bottom;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: $font-body;
+    font-size: 1.2em;
+
+    a {
+        color: $color-primary;
+        background-color: $color-bottom;
+        justify-content: space-around;
+        margin: 20px 20px;
+    }
+}
