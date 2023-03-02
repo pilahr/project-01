@@ -24,9 +24,9 @@ nav {
 
 #login-button > a {
   display: block;
-  width: 150px;
+  width: 100px;
   text-align: center;
-  padding: 20px 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   border: #34495E solid 2px;
   font-family: "Roboto", san-serif;
@@ -38,7 +38,7 @@ nav {
 .button {
   display: block;
   text-align: center;
-  width: 30%;
+  width: 10%;
   padding: 20px 20px;
   color: white;
   background-color: #34495E;
@@ -74,4 +74,8 @@ div a {
   justify-content: center;
   align-items: center;
   text-align: left;
+}
+
+.bolded {
+  font-weight: bold;
 }
