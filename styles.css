@@ -35,6 +35,16 @@ nav {
   color: #34495E;
 }
 
+.button {
+  display: block;
+  text-align: center;
+  width: 30%;
+  padding: 20px 20px;
+  color: white;
+  background-color: #34495E;
+  border-radius: 10px;
+}
+
 div {
   text-align: center;
   font-family: "Roboto", san-serif;
@@ -49,4 +59,10 @@ div h2 {
 }
 div h3 {
   color: #3498DB;
+}
+div p {
+  color: #34495E;
+}
+div a {
+  margin: 0 auto;
 }
