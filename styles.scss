@@ -26,20 +26,25 @@ nav {
     align-items: center;
 }
 
-.logo {
+#logo {
     font-family: $font-logo;
     font-size: 100px;
-    color: $color-primary;
+    a {
+        color: $color-primary;
+    }   
 }
 
-.login-button {
+#login-button {
     display: block;
     width: 150px;
     text-align: center;
     padding: 20px 20px;
     border-radius: 10px;
     border: $color-primary solid 2px;
-    color: $color-primary;
     font-family: $font-display;
-    font: 30px bold;
+    font-size: 30px;
+    font-weight: bold;
+    a {
+        color: $color-primary 
+    }   
 }
