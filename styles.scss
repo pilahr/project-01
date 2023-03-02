@@ -57,6 +57,7 @@ nav {
 div {
     text-align: center;
     font-family: $font-body;
+    margin: 50px, 50px;
 
     h1 {
         color: $color-secondary;
@@ -78,10 +79,14 @@ div {
 
     a {
         margin: 0 auto;
-    }
-
-    
+    }  
 }
 
-
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
 

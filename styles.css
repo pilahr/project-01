@@ -48,6 +48,7 @@ nav {
 div {
   text-align: center;
   font-family: "Roboto", san-serif;
+  margin: 50px, 50px;
 }
 div h1 {
   color: #3498DB;
@@ -65,4 +66,12 @@ div p {
 }
 div a {
   margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
