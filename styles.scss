@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap');
 
 $font-logo:"Bangers", san-serif;
-$font-display:"Tilt Wrap", san-serif;
 $font-body:"Roboto", san-serif;
 
 $color-primary: #34495E;
@@ -26,25 +25,32 @@ nav {
     align-items: center;
 }
 
-#logo {
+#logo >a {
     font-family: $font-logo;
     font-size: 100px;
-    a {
-        color: $color-primary;
-    }   
+    color: $color-primary;   
 }
 
-#login-button {
+#login-button >a {
     display: block;
     width: 150px;
     text-align: center;
     padding: 20px 20px;
     border-radius: 10px;
     border: $color-primary solid 2px;
-    font-family: $font-display;
+    font-family: $font-body;
     font-size: 30px;
     font-weight: bold;
-    a {
-        color: $color-primary 
-    }   
+    color: $color-primary   
+}
+
+div {
+    text-align: center;
+
+    h1 {
+        color: $color-secondary;
+        font-size: 30px;
+        font-family: $font-body;
+        padding: 20px 20px;
+    }
 }
